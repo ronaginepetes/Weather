@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Display</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: yellow;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .weather-widget {
+        width: 300px;
+        background: orange;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        color: blue;
+    }
+    .header {
+        background: linear-gradient(to bottom, gree n, blue);
+        padding: 60px;
+        color: yellow;
+        font-weight: bold;
+        background: blue;
+    }
+    .header h1 {
+        margin: 0;
+        font-size: 50px;
+    }
+    .header p {
+        margin: 5px 0 0;
+        font-size: 16px;
+    }
+    .temperature {
+        font-size: 70px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    .condition {
+        font-size: 20x;
+        margin-bottom: 20px;
+    }
+    .forecast {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        background: pink;
+    }
+    .day {
+        text-align: center;
+    }
+    .day img {
+        width: 40px;
+        height: 40px;
+    }
+    .day .temp {
+        font-size: 14px;
+        margin-top: 5px;
+        background-color: orange;
+    }
+</style>
+</head>
+<body>
+<div class="weather-widget">
+    <div class="header">
+        <h1>12:44</h1>
+        <p>Wednesday, December 4</p>
+        <p>Partly Cloudy</p>
+    </div>
+    <div class="temperature">
+        20° 
+    </div>
+    <div class="condition">
+        <img src="thunder_icon_placeholder.png" alt="Thunder Icon" style="width: 70px;"> <!-- Replace with an actual icon URL -->
+    </div>
+    <div class="forecast">
+        <div class="day">
+            <p>MON</p>
+            <img src="cloud_sun_icon_placeholder.png" alt="Cloud and Sun"> <!-- Replace -->
+            <p class="temp">24°/28°</p>
+        </div>
+        <div class="day">
+            <p>TUE</p>
+            <img src="cloud_icon_placeholder.png" alt="Cloud"> <!-- Replace -->
+            <p class="temp">22°/27°</p>
+        </div>
+        <div class="day">
+            <p>WED</p>
+            <img src="thunder_icon_placeholder.png" alt="Thunder"> <!-- Replace -->
+            <p class="temp">20°/27°</p>
+        </div>
+        <div class="day">
+            <p>THU</p>
+            <img src="sun_icon_placeholder.png" alt="Sun"> <!-- Replace -->
+            <p class="temp">21°/26°</p>
+        </div>
+        <div class="day">
+            <p>FRI</p>
+            <img src="rain_icon_placeholder.png" alt="Rain"> <!-- Replace -->
+            <p class="temp">19°/25°</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
